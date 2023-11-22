@@ -1,3 +1,9 @@
+export const metadata = {
+  // This is for online presence in browser
+  title: 'About Leo Multimedia',
+  description: 'TV entertainment',
+  keywords: 'TV, Entertainment, TV entertainment', 
+}
 
 const AboutPage = () => {
   return <div>

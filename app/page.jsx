@@ -5,7 +5,7 @@ const Homepage = () => {
     <div>
       <h1>Welchome to Leo Multimedia</h1>
       <ul>
-        <li>
+        <li style={{ display: "flex", flexDirection: "column" }}>
           <Link href='/'>Home</Link>
           <Link href='/about'>About</Link>
           <Link href='/about/team'>Team</Link>
